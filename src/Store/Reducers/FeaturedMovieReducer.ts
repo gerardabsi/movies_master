@@ -1,5 +1,5 @@
 import { FeaturedMovieAction } from '../Actions/FeaturedMovieAction';
-import { IMovie } from '../Types/Movie.interface';
+import { IFeatureMovie } from '../Types/Movie.interface';
 import { GET_FEATURED_MOVIE, GET_FEATURED_MOVIE_SUCCESS } from '../Constants';
 
 const initialState = {
@@ -10,7 +10,7 @@ const initialState = {
   loading: true,
 };
 
-export const FeaturedMovieReducer = (state: IMovie = initialState, action: FeaturedMovieAction) => {
+export const FeaturedMovieReducer = (state: IFeatureMovie = initialState, action: FeaturedMovieAction) => {
   switch (action.type) {
     case GET_FEATURED_MOVIE_SUCCESS: {
       return {

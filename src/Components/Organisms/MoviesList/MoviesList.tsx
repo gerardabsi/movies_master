@@ -54,7 +54,7 @@ export const MoviesList: React.FC<MoviesListProps> = ({
         {movies.map(({ title, image }, idx) => (
           <SwiperSlide key={idx} className="movie">
             <img src={`https://image.tmdb.org/t/p/original/${image}`} className="movie-image" alt="" />
-            <span className="movie-title">{title}</span>
+            <div className="movie-title">{title}</div>
           </SwiperSlide>
         ))}
       </Swiper>
