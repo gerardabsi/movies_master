@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
+import { AppState } from '../../Store/configureStore';
 import { FeaturedMovie } from '../../Components/Organisms/FeaturedMovie/FeaturedMovie';
 import { GetFeaturedMovie } from '../../Store/Actions/FeaturedMovieAction';
 import { IMovie } from '../../Store/Types/Movie.interface';
-import { AppState } from '../../Store/configureStore';
 import { Loader } from '../../Components/Atoms/Loading/Loading';
 
 export const Home: React.FC = () => {
