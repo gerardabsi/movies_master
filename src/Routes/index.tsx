@@ -4,10 +4,10 @@ import Home from '../Pages/Home/Home';
 import { Navigation } from '../Components/Organisms/Navigation/Navigation';
 
 export const Routes: React.FC = () => (
-  <div>
+  <>
     <Navigation />
     <Switch>
       <Route exact path="/" component={Home} />
     </Switch>
-  </div>
+  </>
 );
