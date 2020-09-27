@@ -1,0 +1,13 @@
+.loader{
+    position: absolute;
+    left: 0;
+    top:50px;
+    bottom: 0;
+    right: 0;
+    margin:auto;
+    width: 30px;
+    height: 30px;
+    .spinner-border{
+        color: var(--main-color)
+    }
+}
