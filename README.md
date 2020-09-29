@@ -6,7 +6,7 @@ Demo: https://gerardabsi.github.io/movies_master/
 - Get API key from [here](https://www.themoviedb.org/documentation/api)
 - Create .env file in root project and add: `REACT_APP_API_KEY=YOUR_API_KEY_HERE`
 - Add to the .env file: `REACT_APP_API_URL=https://api.themoviedb.org/3`
-- You can copy the .env.example which contain the demo API_KEY and the API_URL
+- You can copy the .env.example which contain the demo API_KEY and the API_URL or you can use the .env.development by default
 - Run project: `npm start`
 
 ## Structure Used
