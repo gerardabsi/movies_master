@@ -39,6 +39,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'comma-dangle': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react-hooks/exhaustive-deps': 'off',
     'no-debugger': 'error',
     'react/jsx-filename-extension': [
       1,
