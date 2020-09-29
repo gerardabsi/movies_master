@@ -1,5 +1,5 @@
 # Movie Master
-Demo: https://gerardabsi.github.io/
+Demo: https://gerardabsi.github.io/movies_master/
 
 ### Runing Project Locally
 - Install dependencies: run `npm install` in root project
