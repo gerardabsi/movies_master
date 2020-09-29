@@ -2,7 +2,7 @@ import { applyMiddleware, combineReducers, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
 import { FeaturedMovieReducer } from './Reducers/FeaturedMovieReducer';
-import httpMiddleware from '../Utils/http';
+import httpMiddleware from '../Utils/httpMiddleware';
 import { IFeatureMovie, IMovies } from './Types/Movie.interface';
 import { createMoviesReducer } from './Reducers/MoviesReducer';
 
