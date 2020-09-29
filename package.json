@@ -40,7 +40,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint . --ext js,jsx,ts,tsx --fix"
+    "lint": "eslint . --ext js,jsx,ts,tsx --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -79,5 +81,6 @@
       "pre-commit": "npm run lint",
       "pre-push": "npm run lint"
     }
-  }
+  },
+  "homepage": "http://gerardabsi.github.io/movies_master"
 }
