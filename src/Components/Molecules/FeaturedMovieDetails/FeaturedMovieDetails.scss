@@ -4,20 +4,20 @@
   color: var(--white) !important;
 
   .title{
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Bold' , sans-serif;
     font-size: 2.5rem;
     padding-bottom: 1rem;
   }
 
   .description{
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Regular' , sans-serif;
     font-size: 1rem;
   }
   .actions{
     padding-top: 2rem;
 
     .button-play{
-      font-family: 'Montserrat-Bold';
+      font-family: 'Montserrat-Bold' , sans-serif;
       cursor: pointer;
       font-size: 1rem;
       color: #fff;
