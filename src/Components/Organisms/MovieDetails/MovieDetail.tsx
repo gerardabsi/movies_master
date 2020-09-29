@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Modal } from 'react-bootstrap';
+import { Button, Modal } from 'react-bootstrap';
 import close from '../../../Assets/Images/close.png';
 import './MovieDetails.scss';
 

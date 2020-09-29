@@ -1,6 +1,6 @@
 import { FeaturedMovieAction } from '../Actions/FeaturedMovieAction';
 import { IFeatureMovie } from '../Types/Movie.interface';
-import { GET_FEATURED_MOVIE, GET_FEATURED_MOVIE_SUCCESS } from '../Constants';
+import { GET_FEATURED_MOVIE_SUCCESS } from '../Constants';
 
 const initialState = {
   id: 0,
