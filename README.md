@@ -13,7 +13,7 @@ Demo: https://gerardabsi.github.io/movies_master/
 
 <img width="100%" alt="atomic design" src="https://user-images.githubusercontent.com/4838076/33235048-d083dca6-d217-11e7-9aea-9a5ef5ae6fe7.png">
 
-###Atomic Design
+### Atomic Design
 
 
 ### What is Atomic Design?
