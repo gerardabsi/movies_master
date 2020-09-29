@@ -1,6 +1,8 @@
 # Movie Master
 Demo: https://gerardabsi.github.io/movies_master/
 
+### Sonar Quality Check
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=gerardabsi_movies_master2&metric=alert_status)](https://sonarcloud.io/dashboard?id=gerardabsi_movies_master2)
 ### Runing Project Locally
 - Install dependencies: run `npm install` in root project
 - Get API key from [here](https://www.themoviedb.org/documentation/api)
