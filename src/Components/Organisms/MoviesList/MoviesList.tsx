@@ -14,11 +14,13 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 interface MoviesListProps {
   sectionTitle: string;
   movies: IMovie[];
+  selectMovieHandler(movie: IMovie): any;
 }
 
 export const MoviesList: React.FC<MoviesListProps> = ({
   movies,
   sectionTitle,
+  selectMovieHandler,
 }: MoviesListProps): React.ReactElement => {
   return (
     <>
@@ -51,8 +53,11 @@ export const MoviesList: React.FC<MoviesListProps> = ({
         preventClicks
         scrollbar={{ draggable: false, hide: true }}
         slideToClickedSlide={false}>
-        {movies.map(({ title, image }, idx) => (
-          <SwiperSlide key={idx} className="movie">
+        {movies.map(({ title, image, description, id }, idx) => (
+          <SwiperSlide
+            key={idx}
+            className="movie"
+            onClick={() => selectMovieHandler({ id, title, image, description })}>
             <img src={`https://image.tmdb.org/t/p/original/${image}`} className="movie-image" alt="" />
             <div className="movie-title">{title}</div>
           </SwiperSlide>
