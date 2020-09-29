@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/movies_master/static/css/main.6ac9959e.chunk.css",
+    "main.css": "/movies_master/static/css/main.bb026b89.chunk.css",
     "main.js": "/movies_master/static/js/main.996b3e89.chunk.js",
     "main.js.map": "/movies_master/static/js/main.996b3e89.chunk.js.map",
     "runtime-main.js": "/movies_master/static/js/runtime-main.4f608c5f.js",
@@ -9,10 +9,10 @@
     "static/js/2.784e189c.chunk.js": "/movies_master/static/js/2.784e189c.chunk.js",
     "static/js/2.784e189c.chunk.js.map": "/movies_master/static/js/2.784e189c.chunk.js.map",
     "index.html": "/movies_master/index.html",
-    "precache-manifest.71cea3084eb8346d42bd051b9a94988f.js": "/movies_master/precache-manifest.71cea3084eb8346d42bd051b9a94988f.js",
+    "precache-manifest.f7b957ae36c1959a5183898e824c0ed8.js": "/movies_master/precache-manifest.f7b957ae36c1959a5183898e824c0ed8.js",
     "service-worker.js": "/movies_master/service-worker.js",
     "static/css/2.40c68a69.chunk.css.map": "/movies_master/static/css/2.40c68a69.chunk.css.map",
-    "static/css/main.6ac9959e.chunk.css.map": "/movies_master/static/css/main.6ac9959e.chunk.css.map",
+    "static/css/main.bb026b89.chunk.css.map": "/movies_master/static/css/main.bb026b89.chunk.css.map",
     "static/js/2.784e189c.chunk.js.LICENSE.txt": "/movies_master/static/js/2.784e189c.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/movies_master/static/media/Montserrat-SemiBold.c641dbee.ttf",
     "static/media/close.png": "/movies_master/static/media/close.30adbb5e.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.4f608c5f.js",
     "static/css/2.40c68a69.chunk.css",
     "static/js/2.784e189c.chunk.js",
-    "static/css/main.6ac9959e.chunk.css",
+    "static/css/main.bb026b89.chunk.css",
     "static/js/main.996b3e89.chunk.js"
   ]
 }
