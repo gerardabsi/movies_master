@@ -15,6 +15,7 @@ Demo: https://gerardabsi.github.io/movies_master/
 
 ##Atomic Design
 
+
 ### What is Atomic Design?
 
 
@@ -60,7 +61,7 @@ Pages are the navigate parts of the application and it’s where the components 
   - Redux
   - Redux Thunk
   - Redux Logger
-  - axiox
-  - axios redux middleware
-  - swiper
+  - Axios
+  - Axios redux middleware
+  - Swiper
   
