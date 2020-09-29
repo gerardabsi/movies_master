@@ -4,7 +4,9 @@ Demo: https://gerardabsi.github.io/
 ### Runing Project Locally
 - Install dependencies: run `npm install` in root project
 - Get API key from [here](https://www.themoviedb.org/documentation/api)
-- Create .env file in root project and add: `API_KEY=YOUR_API_KEY_HERE` or copy the .env.example to use the demo api key
+- Create .env file in root project and add: `REACT_APP_API_KEY=YOUR_API_KEY_HERE`
+- Add to the .env file: `REACT_APP_API_URL=https://api.themoviedb.org/3`
+- You can copy the .env.example which contain the demo API_KEY and the API_URL
 - Run project: `npm start`
 
 ## Structure Used
