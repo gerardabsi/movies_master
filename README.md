@@ -1,5 +1,6 @@
 # Movie Master
-Demo: https://gerardabsi.github.io/movies_master/
+Demo: https://gerardabsi.github.io/movies_master/ <br>
+This repo uses The Movie Database to fetch data.
 
 ### Sonar Quality Check
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=gerardabsi_movies_master2&metric=alert_status)](https://sonarcloud.io/dashboard?id=gerardabsi_movies_master2)
